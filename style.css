@@ -269,6 +269,7 @@ footer .questions {
 
   .first {
     flex-wrap: wrap;
+    margin-bottom: 80px;
   }
 
   .secImg img {
@@ -277,8 +278,9 @@ footer .questions {
   }
 
   .secImg video {
-    width: 202px;
-    top: 94px;
+    width: 188px;
+    right: 28px;
+    top: 137px;
   }
 
   .sImg img {
@@ -346,3 +348,16 @@ footer .questions {
   flex-direction: column;
   gap: 23px;
 }
+
+@media only screen 
+  and (min-device-width: 428px) 
+  and (max-device-width: 428px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .secImg video {
+        width: 202px;
+        top: 132px;
+      }
+
+  }
+    
+    
